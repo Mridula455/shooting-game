@@ -21,9 +21,7 @@ btn.addEventListener("click" ,function(){
         console.log(Player2RandomNumber);
 
         //incrementing the Game-number from 1.
-        if(Player1RandomNumber!==Player2RandomNumber){
         document.getElementById("Game-Number").innerHTML=GameNumber;
-        }
         //
 
         if(Player2RandomNumber>Player1RandomNumber){
