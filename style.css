@@ -1,0 +1,42 @@
+body{
+    font-family: 'serif','sans-serif';
+}
+button{
+    border: 1.5px rgba(0, 0, 0, 0.541) solid;
+    padding:0.2rem 1rem;;
+    border-radius: 5px;
+    font-weight:600;
+    font-size:1.2rem;
+    display: block;
+    margin-left:1.5rem;
+    margin-bottom:2px;
+}
+.column{
+    width:50%;
+    margin-left:1.5rem;
+}
+h1,h2,h3{
+    display: inline;
+    font-weight:550;
+    font-size:1rem;
+}
+p{
+    display: inline;
+}
+
+#Message{
+    margin-left: 1.5rem;
+}
+
+/*Phone only*/
+@media only screen and (max-width:559px){
+    button{
+        font-size:0.9rem;
+    }
+
+    .font{
+        font-size: 1rem;
+    }
+}
+
+
