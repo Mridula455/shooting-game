@@ -27,16 +27,12 @@ btn.addEventListener("click" ,function(){
         if(Player2RandomNumber>Player1RandomNumber){
             var prevScore2= 0;
             Score2++;
-            console.log(prevScore2)
-            console.log(Score2)
-            document.getElementById("player2").innerHTML =Score2;
+            document.getElementById("player2").innerHTML = Score2;
         }
     
         else if(Player1RandomNumber>Player2RandomNumber){
             var prevScore1= 0;
             Score1++;
-            console.log(prevScore1)
-            console.log(Score1)
             document.getElementById("player1").innerHTML =Score1;
         }
 
@@ -49,12 +45,10 @@ btn.addEventListener("click" ,function(){
         if(Player1RandomNumber>Player2RandomNumber){
             let reduceBy = 25;
             healthPlayer2 = healthPlayer2-reduceBy;
-            console.log(healthPlayer2)
         }
         else if(Player2RandomNumber>Player1RandomNumber){
             let reduceBy = 25;
             healthPlayer1 = healthPlayer1-reduceBy;
-            console.log(healthPlayer1)
         }
         else{
             console.log("draw");
