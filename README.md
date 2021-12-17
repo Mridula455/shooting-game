@@ -1,4 +1,4 @@
-# shooting Game
+# Shooting Game
 
 This Game uses - HTML, Css and JavaScript
 
