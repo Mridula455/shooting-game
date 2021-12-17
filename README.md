@@ -1,6 +1,8 @@
 # Shooting Game
 
-This Game uses - HTML, Css and JavaScript
+This Game uses - HTML, Css and JavaScript.
+
+Live demo on :  https://mridula455.github.io/shooting-game/
 
 This Project is a 2 Player Shooting Game .Each Player has a health of 100. Players can shoot at Each other with a random power(0-5) which will reduce the oppnent's health.
 The player whose health reaches 0, dies and the game ends.
